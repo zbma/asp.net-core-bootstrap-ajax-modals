@@ -1,0 +1,9 @@
+﻿@model Contact
+@{  ViewData["Title"] = "Contact form"; }
+<!-- Modal placeholder -->
+<div id="modal-placeholder"></div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="ajax-modal" data-target="#add-contact" data-url="@Url.Action("Contact")">
+    Add contact
+</button>
