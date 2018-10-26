@@ -6,7 +6,7 @@ namespace AjaxModals.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly List<Contact> Contacts = new List<Contact>();
+        private readonly static List<Contact> Contacts = new List<Contact>();
 
         public IActionResult Index()
         {
